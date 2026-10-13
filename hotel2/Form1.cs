@@ -12,9 +12,27 @@ namespace hotel2
 {
     public partial class Form1 : Form
     {
+
         public Form1()
         {
             InitializeComponent();
         }
+
+        private void btn_n1_Click(object sender, EventArgs e)
+        {
+
+             if (cmb_n1.SelectedItem == null || cmb_n2.SelectedItem == null)
+            {
+                
+                MessageBox.Show("Attenzione! Selezionare sia la stagione che il tipo di stanza.");
+                return;
+            }
+            else
+            {
+                  
+            }
+        }
+
+        
     }
 }
