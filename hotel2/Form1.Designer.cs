@@ -51,9 +51,10 @@
             this.lbl_n1.AutoSize = true;
             this.lbl_n1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_n1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.lbl_n1.Location = new System.Drawing.Point(268, 9);
+            this.lbl_n1.Location = new System.Drawing.Point(201, 7);
+            this.lbl_n1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_n1.Name = "lbl_n1";
-            this.lbl_n1.Size = new System.Drawing.Size(227, 32);
+            this.lbl_n1.Size = new System.Drawing.Size(181, 26);
             this.lbl_n1.TabIndex = 0;
             this.lbl_n1.Text = "BENVENUTO/A";
             // 
@@ -62,9 +63,10 @@
             this.lbl_n2.AutoSize = true;
             this.lbl_n2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_n2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.lbl_n2.Location = new System.Drawing.Point(7, 75);
+            this.lbl_n2.Location = new System.Drawing.Point(5, 61);
+            this.lbl_n2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_n2.Name = "lbl_n2";
-            this.lbl_n2.Size = new System.Drawing.Size(410, 25);
+            this.lbl_n2.Size = new System.Drawing.Size(335, 20);
             this.lbl_n2.TabIndex = 1;
             this.lbl_n2.Text = "Completare le seguenti richieste per prenotare";
             // 
@@ -72,9 +74,10 @@
             // 
             this.lbl_n3.AutoSize = true;
             this.lbl_n3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.lbl_n3.Location = new System.Drawing.Point(6, 124);
+            this.lbl_n3.Location = new System.Drawing.Point(4, 101);
+            this.lbl_n3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_n3.Name = "lbl_n3";
-            this.lbl_n3.Size = new System.Drawing.Size(145, 16);
+            this.lbl_n3.Size = new System.Drawing.Size(115, 13);
             this.lbl_n3.TabIndex = 2;
             this.lbl_n3.Text = "Scegliere una stagione";
             // 
@@ -86,18 +89,20 @@
             "Bassa Stagione",
             "Media Stagione",
             "Alta Stagione"});
-            this.cmb_n1.Location = new System.Drawing.Point(9, 143);
+            this.cmb_n1.Location = new System.Drawing.Point(7, 116);
+            this.cmb_n1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmb_n1.Name = "cmb_n1";
-            this.cmb_n1.Size = new System.Drawing.Size(121, 24);
+            this.cmb_n1.Size = new System.Drawing.Size(124, 21);
             this.cmb_n1.TabIndex = 3;
             // 
             // lbl_n4
             // 
             this.lbl_n4.AutoSize = true;
             this.lbl_n4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.lbl_n4.Location = new System.Drawing.Point(6, 198);
+            this.lbl_n4.Location = new System.Drawing.Point(4, 161);
+            this.lbl_n4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_n4.Name = "lbl_n4";
-            this.lbl_n4.Size = new System.Drawing.Size(162, 16);
+            this.lbl_n4.Size = new System.Drawing.Size(127, 13);
             this.lbl_n4.TabIndex = 4;
             this.lbl_n4.Text = "Scegliere il tipo di camera";
             // 
@@ -109,36 +114,40 @@
             "Base",
             "Media ",
             "Alta"});
-            this.cmb_n2.Location = new System.Drawing.Point(9, 217);
+            this.cmb_n2.Location = new System.Drawing.Point(7, 176);
+            this.cmb_n2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmb_n2.Name = "cmb_n2";
-            this.cmb_n2.Size = new System.Drawing.Size(121, 24);
+            this.cmb_n2.Size = new System.Drawing.Size(124, 21);
             this.cmb_n2.TabIndex = 5;
             // 
             // lbl_n5
             // 
             this.lbl_n5.AutoSize = true;
             this.lbl_n5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.lbl_n5.Location = new System.Drawing.Point(6, 324);
+            this.lbl_n5.Location = new System.Drawing.Point(4, 263);
+            this.lbl_n5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_n5.Name = "lbl_n5";
-            this.lbl_n5.Size = new System.Drawing.Size(304, 16);
+            this.lbl_n5.Size = new System.Drawing.Size(241, 13);
             this.lbl_n5.TabIndex = 6;
             this.lbl_n5.Text = "Spuntare la casella per avere anche il parcheggio";
             // 
             // chk_n1
             // 
             this.chk_n1.AutoSize = true;
-            this.chk_n1.Location = new System.Drawing.Point(9, 343);
+            this.chk_n1.Location = new System.Drawing.Point(7, 279);
+            this.chk_n1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.chk_n1.Name = "chk_n1";
-            this.chk_n1.Size = new System.Drawing.Size(99, 20);
+            this.chk_n1.Size = new System.Drawing.Size(80, 17);
             this.chk_n1.TabIndex = 7;
             this.chk_n1.Text = "Parcheggio";
             this.chk_n1.UseVisualStyleBackColor = true;
             // 
             // btn_n1
             // 
-            this.btn_n1.Location = new System.Drawing.Point(9, 399);
+            this.btn_n1.Location = new System.Drawing.Point(7, 324);
+            this.btn_n1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_n1.Name = "btn_n1";
-            this.btn_n1.Size = new System.Drawing.Size(156, 44);
+            this.btn_n1.Size = new System.Drawing.Size(117, 36);
             this.btn_n1.TabIndex = 8;
             this.btn_n1.Text = "PRENOTA";
             this.btn_n1.UseVisualStyleBackColor = true;
@@ -148,9 +157,10 @@
             // 
             this.lbl_n6.AutoSize = true;
             this.lbl_n6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.lbl_n6.Location = new System.Drawing.Point(9, 446);
+            this.lbl_n6.Location = new System.Drawing.Point(7, 362);
+            this.lbl_n6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_n6.Name = "lbl_n6";
-            this.lbl_n6.Size = new System.Drawing.Size(89, 16);
+            this.lbl_n6.Size = new System.Drawing.Size(72, 13);
             this.lbl_n6.TabIndex = 9;
             this.lbl_n6.Text = "Spesa totale: ";
             // 
@@ -160,9 +170,10 @@
             this.label7.Cursor = System.Windows.Forms.Cursors.No;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.label7.Location = new System.Drawing.Point(545, 84);
+            this.label7.Location = new System.Drawing.Point(409, 68);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(164, 25);
+            this.label7.Size = new System.Drawing.Size(136, 20);
             this.label7.TabIndex = 10;
             this.label7.Text = "Bista Grand Hotel";
             // 
@@ -170,9 +181,10 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(466, 112);
+            this.pictureBox1.Location = new System.Drawing.Point(350, 91);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(322, 251);
+            this.pictureBox1.Size = new System.Drawing.Size(242, 204);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
@@ -181,25 +193,27 @@
             // 
             this.lbl_n8.AutoSize = true;
             this.lbl_n8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.lbl_n8.Location = new System.Drawing.Point(9, 261);
+            this.lbl_n8.Location = new System.Drawing.Point(7, 212);
+            this.lbl_n8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_n8.Name = "lbl_n8";
-            this.lbl_n8.Size = new System.Drawing.Size(88, 16);
+            this.lbl_n8.Size = new System.Drawing.Size(72, 13);
             this.lbl_n8.TabIndex = 12;
             this.lbl_n8.Text = "Quanti giorni?";
             // 
             // txt_n1
             // 
-            this.txt_n1.Location = new System.Drawing.Point(12, 281);
+            this.txt_n1.Location = new System.Drawing.Point(9, 228);
+            this.txt_n1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txt_n1.Name = "txt_n1";
-            this.txt_n1.Size = new System.Drawing.Size(100, 22);
+            this.txt_n1.Size = new System.Drawing.Size(93, 20);
             this.txt_n1.TabIndex = 13;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Highlight;
-            this.ClientSize = new System.Drawing.Size(800, 480);
+            this.ClientSize = new System.Drawing.Size(600, 390);
             this.Controls.Add(this.txt_n1);
             this.Controls.Add(this.lbl_n8);
             this.Controls.Add(this.pictureBox1);
@@ -214,6 +228,7 @@
             this.Controls.Add(this.lbl_n3);
             this.Controls.Add(this.lbl_n2);
             this.Controls.Add(this.lbl_n1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "  ";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

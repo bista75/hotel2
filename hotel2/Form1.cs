@@ -29,7 +29,7 @@ namespace hotel2
             }
             else
             {
-                int giorni;
+                int giorni = Convert.ToInt32(txt_n1.Text);
                 string stagione = cmb_n1.SelectedItem.ToString();
                 string stanza = cmb_n2.SelectedItem.ToString();
                 bool parcheggio = chk_n1.Checked;
