@@ -49,7 +49,40 @@ namespace hotel2
                     {
                         costoGiornaliero = 45;
                     }
+                    
                 }
+                else if (stagione == "Media Stagione")
+                {
+                    if (stanza == "Base")
+                    {
+                        costoGiornaliero = 20;
+                    }
+                    else if (stanza == "Media")
+                    {
+                        costoGiornaliero = 35;
+                    }
+                    else if (stanza == "Alta")
+                    {
+                        costoGiornaliero = 50;
+                    }
+                }
+                else if (stagione == "Alta Stagione")
+                {
+                    if (stanza == "Base")
+                    {
+                        costoGiornaliero = 25;
+                    }
+                    else if (stanza == "Media")
+                    {
+                        costoGiornaliero = 40;
+                    }
+                    else if (stanza == "Alta")
+                    {
+                        costoGiornaliero = 55;
+                    }
+
+                }
+                double costoStanza = 0;
 
                 
             }

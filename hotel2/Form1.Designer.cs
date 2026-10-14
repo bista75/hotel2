@@ -54,9 +54,9 @@
             this.lbl_n1.Location = new System.Drawing.Point(201, 7);
             this.lbl_n1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_n1.Name = "lbl_n1";
-            this.lbl_n1.Size = new System.Drawing.Size(181, 26);
+            this.lbl_n1.Size = new System.Drawing.Size(215, 26);
             this.lbl_n1.TabIndex = 0;
-            this.lbl_n1.Text = "BENVENUTO/A";
+            this.lbl_n1.Text = "BENVENUTO/Aura";
             // 
             // lbl_n2
             // 
