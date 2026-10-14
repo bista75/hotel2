@@ -33,6 +33,23 @@ namespace hotel2
                 string stagione = cmb_n1.SelectedItem.ToString();
                 string stanza = cmb_n2.SelectedItem.ToString();
                 bool parcheggio = chk_n1.Checked;
+                double costoGiornaliero = 0;
+
+                if (stagione == "Bassa Stagione")
+                {
+                    if (stanza == "Base")
+                    {
+                        costoGiornaliero = 15;
+                    }
+                    else if (stanza == "Media")
+                    {
+                        costoGiornaliero = 30;
+                    }
+                    else if(stanza == "Alta")
+                    {
+                        costoGiornaliero = 45;
+                    }
+                }
 
                 
             }
