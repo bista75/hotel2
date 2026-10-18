@@ -109,7 +109,7 @@
             this.cmb_n2.FormattingEnabled = true;
             this.cmb_n2.Items.AddRange(new object[] {
             "Base",
-            "Media ",
+            "Media",
             "Alta"});
             this.cmb_n2.Location = new System.Drawing.Point(9, 217);
             this.cmb_n2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);

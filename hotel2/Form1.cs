@@ -34,7 +34,7 @@ namespace hotel2
                 string stagione = cmb_n1.SelectedItem.ToString();
                 string stanza = cmb_n2.SelectedItem.ToString();
                 bool parcheggio = chk_n1.Checked;
-                double costoGiornaliero = 0, costoParcheggio = 0;
+                double costoGiornaliero = 0, costoParcheggio = 0, costoStanza = 0;
 
                 if (stagione == "Bassa Stagione")
                 {
@@ -83,20 +83,18 @@ namespace hotel2
                     }
 
                 }
-                double costoStanza = 0;
-
+                
                 if (giorni <= 0)
                 {
-                    do
-                    {
-                        MessageBox.Show("ATTENZIONE! Inserire correttamente il numero di giorni");   
-                    }while (giorni <= 0);
                     
+                    MessageBox.Show("ATTENZIONE! Inserire correttamente il numero di giorni");   
+                    return;
                     
                 }
                 else
                 {
-                    for (int i = 0; i < giorni; i++)
+                    
+                    for (int i = 1; i <= giorni; i++)
                     {
                         if (giorni <= 2)
                         {
@@ -105,7 +103,6 @@ namespace hotel2
                         else if (giorni <= 7)
                         {
                             costoStanza += costoGiornaliero * 0.75;
-
                         }
                         else
                         {
@@ -122,8 +119,9 @@ namespace hotel2
                     costoParcheggio = giorni * 5;
                 }
 
+                MessageBox.Show($"Stagione: {stagione} | Stanza: {stanza} | Tariffa giornaliera: {costoGiornaliero} | Costo Stanza: {costoStanza}");
                 double totale = costoStanza + costoParcheggio;
-                lbl_n6.Text = "Spesa totale: " +  totale;
+                lbl_n6.Text = "Spesa totale:" + totale;
             }
         }
 
