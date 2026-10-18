@@ -108,16 +108,27 @@ namespace hotel2
                     costoStanza = (giorni * costoGiornaliero) * 0.65;
                 }
 
-                if ()
+                if (chk_n1.Checked)
                 {
                     costoParcheggio = giorni * 5;
                 }
 
                 double totale = costoStanza + costoParcheggio;
-                lbl_n6.Text = Console.WriteLine("il costo totale è" +  totale);
+                lbl_n6.Text = "Spesa totale: " +  totale;
             }
         }
 
-        
+        private void btn_n2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(
+                "Questo programma permette di calcolare il preventivo per il soggiorno del Bista Grand Hotel.\n\n" +
+                "L'utente può selezionare la stagione, il tipo di stanza, la durata della permanenza e l'eventuale parcheggio.\n\n" +
+                "Il sistema applicherà automaticamente tariffe e sconti (25% dai 3 ai 7 giorni e 35% oltre i 7) mostrando poi il costo totale.",
+                "Informazioni sul programma",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Information
+            );
+        }
+
     }
 }
