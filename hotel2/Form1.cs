@@ -25,12 +25,16 @@ namespace hotel2
              if (cmb_n1.SelectedItem == null || cmb_n2.SelectedItem == null)
             {
                 
-                MessageBox.Show("Attenzione! Selezionare sia la stagione che il tipo di stanza.");
+                MessageBox.Show(
+                        "Selezionare sia la stagione che il tipo di stanza",
+                        "Attenzione!",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Warning);
                 return;
             }
             else
             {
-                int giorni = Convert.ToInt32(txt_n1.Text);
+                
                 string stagione = cmb_n1.SelectedItem.ToString();
                 string stanza = cmb_n2.SelectedItem.ToString();
                 bool parcheggio = chk_n1.Checked;
@@ -83,11 +87,26 @@ namespace hotel2
                     }
 
                 }
-                
+
+
+                if (txt_n1.Text == "")
+                {
+                    MessageBox.Show(
+                        "Inserire un numero di giorni",
+                        "Attenzione!",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Warning);
+                    return;
+                }
+                int giorni = Convert.ToInt32(txt_n1.Text);
                 if (giorni <= 0)
                 {
                     
-                    MessageBox.Show("ATTENZIONE! Inserire correttamente il numero di giorni");
+                    MessageBox.Show(
+                        "Inserire correttamente il numero di giorni",
+                        "Attenzione!",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Warning);
                     txt_n1.Clear();
                     return;
                     
