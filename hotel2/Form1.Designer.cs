@@ -54,9 +54,9 @@
             this.lbl_n1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.lbl_n1.Location = new System.Drawing.Point(237, 9);
             this.lbl_n1.Name = "lbl_n1";
-            this.lbl_n1.Size = new System.Drawing.Size(271, 32);
+            this.lbl_n1.Size = new System.Drawing.Size(227, 32);
             this.lbl_n1.TabIndex = 0;
-            this.lbl_n1.Text = "BENVENUTO/Aura";
+            this.lbl_n1.Text = "BENVENUTO/A";
             // 
             // lbl_n2
             // 
@@ -133,9 +133,9 @@
             this.chk_n1.Location = new System.Drawing.Point(9, 343);
             this.chk_n1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chk_n1.Name = "chk_n1";
-            this.chk_n1.Size = new System.Drawing.Size(99, 20);
+            this.chk_n1.Size = new System.Drawing.Size(127, 20);
             this.chk_n1.TabIndex = 7;
-            this.chk_n1.Text = "Parcheggio";
+            this.chk_n1.Text = "Parcheggio (5 €)";
             this.chk_n1.UseVisualStyleBackColor = true;
             // 
             // btn_n1
@@ -189,9 +189,9 @@
             this.lbl_n8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.lbl_n8.Location = new System.Drawing.Point(9, 261);
             this.lbl_n8.Name = "lbl_n8";
-            this.lbl_n8.Size = new System.Drawing.Size(88, 16);
+            this.lbl_n8.Size = new System.Drawing.Size(134, 16);
             this.lbl_n8.TabIndex = 12;
-            this.lbl_n8.Text = "Quanti giorni?";
+            this.lbl_n8.Text = "Giorni di permanenza";
             // 
             // txt_n1
             // 

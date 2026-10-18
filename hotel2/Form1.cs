@@ -90,23 +90,32 @@ namespace hotel2
                     do
                     {
                         MessageBox.Show("ATTENZIONE! Inserire correttamente il numero di giorni");   
-                    }while (giorni < 0);
-
+                    }while (giorni <= 0);
                     
-                }
-                else if (giorni <=2)
-                {
-                    costoStanza = giorni * costoGiornaliero;
-                }
-                else if (giorni <=7)
-                {
-                    costoStanza = (giorni * costoGiornaliero) * 0.75;
-
+                    
                 }
                 else
                 {
-                    costoStanza = (giorni * costoGiornaliero) * 0.65;
+                    for (int i = 0; i < giorni; i++)
+                    {
+                        if (giorni <= 2)
+                        {
+                            costoStanza += costoGiornaliero;
+                        }
+                        else if (giorni <= 7)
+                        {
+                            costoStanza += costoGiornaliero * 0.75;
+
+                        }
+                        else
+                        {
+                            costoStanza += costoGiornaliero * 0.65;
+                        }
+                    }
                 }
+
+                
+               
 
                 if (chk_n1.Checked)
                 {
