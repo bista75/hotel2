@@ -18202,4 +18202,13 @@
         ieKjOliKtWdWpHmgpc03BWqTimqkuSEHJxjBNKUlE//Z
 </value>
   </data>
+  <data name="lbl_n9.Text" xml:space="preserve">
+    <value>Questo programma permette di calcolare
+il preventivo per il soggiorno del Bista Grand Hotel.
+Inserire la stagione, il tipo di camera, il numero di giorni di permanenza
+e, se si vuole, il parcheggio.
+Il sistema calcolerà in automatico le tariffe e gli eventuali sconti (25% dai 3 ai 7 giorni e 35% dai 7 in poi), per 
+poi stampare la spesa totale.
+</value>
+  </data>
 </root>

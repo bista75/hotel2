@@ -147,14 +147,8 @@ namespace hotel2
 
         private void btn_n2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(
-                "Questo programma permette di calcolare il preventivo per il soggiorno del Bista Grand Hotel.\n\n" +
-                "L'utente può selezionare la stagione, il tipo di stanza, la durata della permanenza e l'eventuale parcheggio.\n\n" +
-                "Il sistema applicherà automaticamente tariffe e sconti (25% dai 3 ai 7 giorni e 35% oltre i 7) mostrando poi il costo totale.",
-                "Informazioni sul programma",
-                MessageBoxButtons.OK,
-                MessageBoxIcon.Information
-            );
+            grb_n1.Visible = !grb_n1.Visible;
+
         }
 
     }
