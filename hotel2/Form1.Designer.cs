@@ -174,7 +174,7 @@
             this.label7.Cursor = System.Windows.Forms.Cursors.No;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.label7.Location = new System.Drawing.Point(501, 70);
+            this.label7.Location = new System.Drawing.Point(508, 37);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(136, 20);
@@ -185,10 +185,10 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(449, 92);
+            this.pictureBox1.Location = new System.Drawing.Point(422, 61);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(242, 204);
+            this.pictureBox1.Size = new System.Drawing.Size(302, 237);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
@@ -238,7 +238,7 @@
             // lbl_n9
             // 
             this.lbl_n9.AutoSize = true;
-            this.lbl_n9.Location = new System.Drawing.Point(7, 20);
+            this.lbl_n9.Location = new System.Drawing.Point(6, 16);
             this.lbl_n9.Name = "lbl_n9";
             this.lbl_n9.Size = new System.Drawing.Size(514, 78);
             this.lbl_n9.TabIndex = 0;
