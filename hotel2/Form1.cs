@@ -141,7 +141,7 @@ namespace hotel2
 
                 MessageBox.Show($"Stagione: {stagione} | Stanza: {stanza} | Tariffa giornaliera: {costoGiornaliero} | Costo Stanza: {costoStanza}");
                 double totale = costoStanza + costoParcheggio;
-                lbl_n6.Text = "Spesa totale:" + totale;
+                lbl_n6.Text = "Spesa totale:" + totale + "€";
             }
         }
 
